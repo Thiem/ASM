@@ -1,0 +1,146 @@
+header, section, footer, aside, nav, article, figcaption, figure,h1,h3{
+    display: block;
+}
+body {
+    font-family: open_sansregular,Arial,Tahoma,san-serif;
+    font-size: 1em;
+    line-height: 1.1em;
+    /*background: url(../images/bg-default.jpg) no-repeat center 0;*/
+    background-color: black;
+}
+header{
+    width: 1191px;
+    margin: 0 auto 15px;
+    background: url("../images/sprite.png") no-repeat 0 0;
+    height: 233px;
+    z-index: 8;
+    position: relative;
+    top: 10px;
+}
+.eightteen {
+    position: fixed;
+    top: 10px;
+    left: 20px;
+    z-index: 99;
+}
+header #logoLMHT {
+    display: block;
+    width: 338px;
+    height: 115px;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    margin-left: -171px;
+    z-index: 3;
+    text-align: center;
+    overflow: hidden;
+    opacity: 1;
+    outline: 0;
+}
+#main-menu{
+    position: relative;
+    padding-left: 96px;
+    padding-top: 119px;
+}
+#main-menu>ul {
+    list-style-type: none;
+    overflow: visible;
+    height: 37px;
+    margin: 0;
+}s
+#main-menu>ul>li>{
+    text-align: center;
+    list-style: none;
+    padding: 0px;
+    min-width: 130px;
+}
+#main-menu>ul>li>a{
+    color: #d1d3d5;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-family: eb_garamondregular,"Times New Roman",serif;
+    text-align: center;
+    font-size: 1.15em;
+    float: left;
+    padding: 2px 30px;
+}
+#main-menu>ul>li>a:hover{
+    background: transparent url(../images/header-hover-bg.png) no-repeat 50% 10px;
+    color: #6ac4cc;
+}
+#groupButton{
+    margin-left: 487px;
+    margin-top: 37px;
+}
+#groupButton>a{
+    text-align: center;
+    text-transform: uppercase;
+    color: white;
+    font-family: utm_gods_wordbold,"Times New Roman",serif;
+    font-size: 17px;
+    text-shadow: 0 0 1px rgba(250,153,55,0.7), 0 0 6px rgba(110,40,20,0.8);
+    text-decoration: none;
+    padding: 10px;
+    font-weight: bold;
+}
+#groupButton>a:hover{
+    color: #EEC012;
+}
+.wrapper{
+    width: 100%;
+    height: 950px;
+    /*background-image: url("../images/Cover-Web.jpg");*/
+    background: url(../images/Cover-Web.jpg) no-repeat center 0;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
+.showContent{
+    width: 1400px;
+    position: relative;
+    margin: 525px auto auto 475px;
+}
+.link-add{
+    position: absolute;
+}
+.btn-add{
+    background: #D79922 url("../images/sprite.png") no-repeat 0 -242px;
+    color: #222;
+    border-color: #f6c653 #bd6a23 #b6631f #e8ab4a;
+    border-width: 3px;
+    border-style: solid;
+    text-decoration: none;
+    padding: 5px;
+    text-transform: uppercase;
+    font-family: eb_garamondregular,"Times New Roman",serif;
+}
+.section-wrapper-top {
+    /*display: none;*/
+    width: 100%;
+    position: relative;
+    background: transparent url(../images/frame-textures-sprite.jpg) no-repeat 50% 0;
+    top: 75px;
+    left: 0;
+    height: 111px;
+}
+.section-wrapper {
+    background-image: url(../images/frame-center.png);
+    background-repeat: repeat-y;
+    background-position: 50% 0;
+}
+.nav-menu{
+    background-image: url(../images/frame-sprite.png);
+    background-position: -33px -620px;
+    position: absolute;
+    left: 463px;
+    right: 0;
+    top: -35px;
+    z-index: 1;
+    display: table;
+    width: 975px;
+    height: 48px;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    list-style-type: none;
+}
